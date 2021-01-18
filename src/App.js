@@ -6,6 +6,8 @@ import SpotifyWebApi from 'spotify-web-api-js';
 import Player from './components/Player';
 import IndieCalc from './components/IndieCalc';
 import BoilerRoom from './components/BoilerRoom';
+import Listmas from './components/Listmas';
+import Compatibility from './components/Compatibility';
 
 function App() {
 
@@ -36,9 +38,11 @@ function App() {
       <div>
         Logged In: {loggedIn ? 'Yes' : 'No'}
       </div>
-      <Player/>
-      <BoilerRoom/>
+      {/* <Player/> */}
       {/* <IndieCalc/> */}
+      {/* <BoilerRoom/> */}
+      {/* <Listmas/> */}
+      <Compatibility/>
     </div>
   );
 }
